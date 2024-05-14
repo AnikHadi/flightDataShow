@@ -1,4 +1,4 @@
-## Getting Started
+# Getting Started
 
 First, clone or download the code from the source repository:
 
@@ -47,9 +47,19 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Live Project Preview
+# Live Project Preview
 
-Live Project [Click Hear](https://nextjs.org/docs/deployment)
+Live Project [Click Hear](https://flight-data-show.netlify.app/)
+
+## My Two Live Project Links:
+
+E-commerce website: [aladdinmartbd](https://aladdinmartbd.com)
+
+This project is authenticating base website with admin and agent, agent access is limited:
+
+Company-website: [SomaEnterprise](https://somaenterprise.netlify.app/)
+
+And many more projects are available at my github repository....
 
 ## Learn More
 
