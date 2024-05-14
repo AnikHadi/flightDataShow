@@ -1,10 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+First, clone or download the code from the source repository:
 
 ```bash
+git clone https://github.com/AnikHadi/flightDataShow.git
+```
+
+Second, run npm install to get all dependencies & packages:
+
+```bash
+npm install
+```
+
+Next Step: Create environment file in this project:
+
+Environment variable name is similar to,
+
+```bash
+.env.local
+```
+
+add the following environment variables:
+
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+DOMAIN_NAME=localhost:3000
+```
+
+Run the development server:
+
+```bash
+
 npm run dev
 # or
 yarn dev
@@ -16,21 +47,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Live Project Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Live Project [Click Hear](https://nextjs.org/docs/deployment)
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+My Clerk credentials is hear,
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_aW1tdW5lLWNvdWdhci01OC5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_IWu2M6JOXup54tnhkd9457H6U0qyZiwadUfQ4dQHS6
 
 ## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
